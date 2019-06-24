@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+p {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+#scroll-display {
+  background-color: rgb(74, 141, 244);
+  height: 3px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
